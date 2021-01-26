@@ -1,9 +1,8 @@
-body,
 h1,
 h2,
 p,
 span {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 .nav-main {
   background: #fffff4;
@@ -17,22 +16,24 @@ button {
   width: 170px;
   height: 60px;
   border-radius: 10px;
+  font-weight: 900;
 }
 /* main section CSS here */
-.main-div-image {
-  background-image: url("./icon/green.png");
-  height: 500px;
-}
+
 .header-part {
   margin-left: 200px;
   margin-top: 100px;
+  font-style: Bebas Neue;
 }
 .image-1 {
-  height: 400px;
+  height: 500px;
   margin-left: 200px;
 }
 
 /*section part css starts here */
+.section {
+  font-family: Roboto;
+}
 .card {
   border: none;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
